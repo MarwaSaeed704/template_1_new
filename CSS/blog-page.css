@@ -1,0 +1,38 @@
+
+
+/* blog page section */
+
+.blog-page{
+    background: #f8f8f8;
+    height: 60px;
+    border: 1px solid #e8e8e8;
+    
+}
+
+.blog-content{
+    overflow: hidden;
+}
+
+.blog-title{
+    width: 50%;
+    float: left;
+    text-transform: capitalize;
+    line-height: 60px;
+   font-size: 20px;
+    
+}
+.blog-page .links{
+    line-height: 60px;
+    text-align: right;
+}
+
+.blog-page a{
+    color: #6195ff;
+    display: inline-block;
+    margin-left:5px ;
+    text-transform: capitalize;
+}
+.blog-page a.single{
+    color: #999;
+} 
+

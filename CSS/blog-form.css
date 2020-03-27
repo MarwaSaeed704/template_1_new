@@ -1,0 +1,45 @@
+
+
+/* input form */
+
+input ,textarea{
+    background: #e8e8e8;
+    border: none;
+    text-transform: capitalize;
+}
+
+input{
+    width: 49%;
+    height: 50px;
+    padding: 10px;
+    
+}
+
+input[type=text]{
+    margin-right:1% ;
+}
+
+textarea{
+    display: block;
+    width: 100%;
+    margin: 20px 0;
+    padding: 10px;
+    height: 100px;
+    resize: vertical;
+}
+
+input:focus ,textarea:focus{
+    border-top: 1px solid #6195ff;
+    
+}
+
+.submit{
+    color: #fff;
+    background: #6195ff;
+    border: none;
+    width: 150px;
+    height: 60px;
+    border-radius: 5px;
+    font-size: 18px;
+    
+}

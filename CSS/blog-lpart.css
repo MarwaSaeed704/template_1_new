@@ -1,0 +1,42 @@
+/* blog lpart section */
+
+.blog-lpart{
+
+}
+
+.blog-lpart-content{
+    width: 70%;
+    margin-right: 3%;
+}
+
+.blog-lpart-img{
+    margin-bottom: 10px;
+}
+
+.blog-lpart-img img{
+    width: 100%;
+}
+
+.blog-lpart ul{
+
+
+}
+
+.blog-lpart ul li{
+    display: inline-block;
+    margin-left:5px ;
+    color: #999;
+}
+
+.blog-lpart ul li i{
+    color: #6195ff;
+}
+
+.blog-lpart-title{
+    margin: 15px 0;
+}
+
+.blog-lpart-desc{
+    color: #999;
+    line-height: 1.6;
+}

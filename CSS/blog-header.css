@@ -1,0 +1,16 @@
+/* blog header section */
+
+.bheader-border{
+    background: #fff;
+    border: 1px solid #e8e8e8;
+
+}
+
+.nav > li > a.bcolor{
+    color: #666;
+    text-transform: capitalize;
+}
+
+.nav > li a.bcolor:hover{
+    color: #6195ff;
+}

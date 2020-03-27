@@ -1,0 +1,60 @@
+/* john doe */
+
+.john-doe{
+    border: 1px solid #e8e8e8;
+    padding: 20px;
+   
+}
+
+.john-doe-img{
+    width: 25%;
+    margin-right: 20px;
+}
+
+.john-doe-title{
+
+    padding: 20px;
+    border-bottom:1px solid #e8e8e8 ;
+    width: 70%;
+    margin-bottom: 20px;
+    
+}
+
+
+
+
+.john-doe-img img{
+    width: 100%;
+}
+
+.john-doe-title .title{
+    text-transform: uppercase;
+}
+
+.john-doe-title .list{
+   
+    text-align: right;
+}
+
+.john-doe-title .list li{
+    background: #6195ff;
+    padding: 5px;
+    text-align: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+
+
+.john-doe-title .list li i{
+    color: #fff;
+   
+}
+
+.desc{
+    color: #999;
+    line-height: 1.6;
+
+    
+}

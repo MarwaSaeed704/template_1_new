@@ -1,0 +1,93 @@
+/*3.0- Header section */
+
+.header{
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    
+}
+
+.header-bac{
+    background: rgba(0,0,0,0.4);
+}
+
+
+
+
+.header .logo{
+    width: 40%;
+   
+    float: left;
+}
+
+.header .logo img{
+    width: 20%;
+    margin-top: 15px;
+}
+
+.header .nav{
+    width: 60%;
+    float: left;
+    text-align: right;
+}
+
+.header .nav > li{
+    display: inline-block;
+    text-align: right;
+}
+
+.header .nav > li > a{
+    
+    display: block;
+    padding: 30px 10px;
+    font-size: 15px;
+}
+
+.header .nav > li > a.color{
+    color:var(--white-color);
+
+}
+
+.header .nav > li >  a:after ,.header .nav li a.active:after{
+    content: "";
+    display: block;
+    width: 0;
+    height: 3px;
+    background: var(--main-color);
+    transition: width 0.5s;
+}
+
+.header .nav > li a.active:after{
+    width: 100%;
+}
+
+.header .nav > li a:hover::after{
+    width: 100%;
+}
+
+.dropdown{
+    position: relative;
+}
+
+.dropdown-menu {
+    position: absolute;
+    background: var(--main-color);
+    width: 150px;
+    left: -50%;
+    top: 70%;
+    text-align: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+
+}
+.dropdown-menu a{
+    color: var(--white-color);
+    padding: 10px;
+    display: block;
+}
+
+.dropdown:hover .dropdown-menu{
+    opacity: 1;
+    visibility: visible;
+}
